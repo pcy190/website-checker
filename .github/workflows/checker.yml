@@ -1,7 +1,7 @@
 name: Check websites
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
 
 jobs:
   checker:
